@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title%}
+  Главная страница
+{% endblock title %}
+{% block content %}
+  <h1>Страница задач</h1>
+  {% for task in task_list %}
+    <ul>
+      <li>
+        Задача: {{ task.title }}
+      </li>
+      <li>
+        Описание: {{ task.description }}
+      </li>
+      <li>
+        Дата создания: {{ task.created_at }}
+      </li>
+      <li>
+        Крайняя дата: {{ task.deadline }}
+      </li>
+      <li>
+        От кого: {{ task.author }}
+      </li>
+    </ul>
+  {% endfor %}
+{% endblock content %}
