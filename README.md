@@ -1,3 +1,3 @@
 # tasker
 
-pet project Pavel N.
+pet project Pavel N.V.
