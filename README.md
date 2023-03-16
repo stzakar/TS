@@ -1,3 +1,3 @@
 # tasker
 
-pet prject Pavel N.
+pet project Pavel N.
